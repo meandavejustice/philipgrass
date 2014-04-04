@@ -1,0 +1,51 @@
+body {
+  font-family: helvetica, arial;
+  color: white;
+  background: rgb(75, 75, 75);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 245, 245);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  padding: 6px;
+  border: 1px solid;
+  margin: 10px;
+  border-bottom: 2px solid;
+  border-right: 3px solid;
+}
+
+pre {
+  margin-top: 60px;
+}
+
+pre:hover {
+/* background: url('img/cover.png') no-repeat; */
+  background-size: 125%;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+}
+
+.center {
+  width: 600px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 80px auto;
+}
